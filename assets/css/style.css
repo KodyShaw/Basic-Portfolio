@@ -5,6 +5,7 @@
     color: whitesmoke;
     font-size: 20px;
     font-weight: bold;
+    float: left;
 }
 
 .headingfixed {
@@ -16,8 +17,18 @@
 
 }
 
-.hedingcenter {
+.headingcenter {
+    align-self: center;
+    width: 960px;
+    background-color: blueviolet;
+    position: absolute;
 
+}
 
+.headingrightbox {
+    float: right;
+    top: 0px;
+    bottom: 0px;
+    position: absolute;
     
 }
