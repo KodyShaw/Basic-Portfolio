@@ -15,22 +15,30 @@
     width: 100%;
     position: fixed;
     bottom: 90%;
-
 }
 
 .headingcenter {
-    align-self: center;
+    align-self: auto;
     width: 960px;
     background-color: blueviolet;
     position: absolute;
+    top: 0px;
+    bottom: 0px;
 
 }
 
 .headingrightbox {
     top: 0px;
     right: 0px;
-
     bottom: 0px;
     position: absolute;
     background-color: aquamarine;
+
+}
+
+.headingapc {
+    position: absolute;
+    padding: 33.33%;
+    text-align: center;
+
 }
