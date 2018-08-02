@@ -6,6 +6,8 @@
     font-size: 20px;
     font-weight: bold;
     float: left;
+    bottom: 0px;
+    position: absolute;
 }
 
 .headingfixed {
@@ -18,7 +20,7 @@
 }
 
 .headingcenter {
-    align-self: auto;
+    align-self: center;
     width: 960px;
     background-color: blueviolet;
     position: absolute;
