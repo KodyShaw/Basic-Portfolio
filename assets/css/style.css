@@ -20,13 +20,14 @@
 }
 
 .headingcenter {
-    align-self: center;
+    margin-left: auto;
+    margin-right: auto;
     width: 960px;
     background-color: blueviolet;
-    position: absolute;
+    z-index: 1;
     top: 0px;
     bottom: 0px;
-
+    position: absolute;
 }
 
 .headingrightbox {
@@ -43,4 +44,15 @@
     padding: 33.33%;
     text-align: center;
 
+}
+
+.footer {
+    background-color: #666666;
+    position: sticky;
+    bottom: 0px;
+    border-top: 5px;
+    border-top-color: #4aaaa5;
+    width: 100%;
+    top: 90%;
+    
 }
